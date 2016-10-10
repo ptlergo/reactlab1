@@ -1,5 +1,5 @@
-#Lab assingment
-react native app. lab assignment
+#Lab assignment
+react native app. lab assignments. Each lab is saved in different branches.
 
 ## Install
 install react native globally
