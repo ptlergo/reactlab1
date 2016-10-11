@@ -2,6 +2,7 @@
 
 /**
 * function that returns static array of users
+* data saved in store
 **/
 export default function() {
   return [
