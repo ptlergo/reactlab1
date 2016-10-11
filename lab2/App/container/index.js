@@ -1,5 +1,5 @@
 'use strict'
-
+import { Provider } from 'react-redux'
 import React, { Component } from 'react'
 import {
   StyleSheet,
@@ -9,6 +9,8 @@ import {
 
 // import custom components
 import Test from '../components/Test'
+import allReducers from '../reducers/index'
+
 
 // created class
 export default class App extends Component {

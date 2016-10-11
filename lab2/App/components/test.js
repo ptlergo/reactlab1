@@ -12,7 +12,7 @@ export default class Test extends Component {
   render(){
     return (
       <View style={styles.container}>
-        <Text> Testing </Text>
+        <Text> Users: </Text>
       </View>
     )
   }
@@ -22,6 +22,8 @@ export default class Test extends Component {
 const styles = StyleSheet.create({
   container: {
     backgroundColor: "#154495",
-    flex: 1
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center'
   }
 })

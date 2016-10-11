@@ -1,6 +1,8 @@
 'use strict'
 import { createStore } from 'redux'
-import allReducers from './reducers';
+import { Provider } from 'react-redux'
+import Test from './components/Test'
+import allReducers from './reducers'
 
 // Data for entire application
 const store = createStore(allReducers);
