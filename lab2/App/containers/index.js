@@ -10,13 +10,16 @@ import {
 // import custom components
 import Test from '../components/Test'
 import allReducers from '../reducers/index'
+import store from '../Store'
 
 
 // created class
 export default class App extends Component {
   render(){
     return (
-      <Test/>
+      <Provider store={store}>
+        <Test/>
+      </Provider>
     )
   }
 }

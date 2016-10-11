@@ -5,4 +5,4 @@ import Test from './components/Test'
 import allReducers from './reducers'
 
 // Data for entire application
-const store = createStore(allReducers);
+export default createStore(allReducers);
