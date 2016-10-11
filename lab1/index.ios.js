@@ -4,4 +4,4 @@ import React, { Component } from 'react'
 import { AppRegistry } from 'react-native'
 
 import App from './App/container/'
-AppRegistry.registerComponent('mddday2', () => App)
+AppRegistry.registerComponent('lab1', () => App)
