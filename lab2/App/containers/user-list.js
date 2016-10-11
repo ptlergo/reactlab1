@@ -10,10 +10,21 @@ import {
 } from 'react-native'
 
 class UserList extends Component {
+
+  createListItems() {
+    return this.props.users.map( (users)=> {
+      return(
+        <li key={user.id}> {user.first}</li>
+      )
+    })
+  }
+  
   render() {
     return (
-      <Text>1</Text>
-    )
+        <ul>
+          {this.createListItems()}
+        </ul>
+      )
   }
 }
 
@@ -24,4 +35,4 @@ function mapStateToProps(state) {
   }
 }
 
-export default connect (mapStateToProps)(UserList);
+export default connect(mapStateToProps)(UserList);
