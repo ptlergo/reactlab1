@@ -8,6 +8,7 @@ import {
 } from 'react-native'
 
 // import custom components
+import UserList from './user-list'
 import Test from '../components/Test'
 import allReducers from '../reducers/index'
 import store from '../Store'
