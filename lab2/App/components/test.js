@@ -1,5 +1,4 @@
 'use strict'
-
 import React, { Component } from 'react'
 import {
   StyleSheet,
@@ -7,12 +6,15 @@ import {
   Text
 } from 'react-native'
 
+import UserList from '../containers/user-list'
+
 // new class 'Test'
 export default class Test extends Component {
   render(){
     return (
       <View style={styles.container}>
-        <Text> Users: </Text>
+      <Text> Users: </Text>
+      <UserList />
       </View>
     )
   }

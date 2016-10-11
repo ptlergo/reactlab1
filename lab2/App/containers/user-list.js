@@ -6,24 +6,25 @@ import { connect } from 'react-redux'
 import {
   StyleSheet,
   View,
-  Text
+  Text,
+  ListView
 } from 'react-native'
 
 class UserList extends Component {
 
   createListItems() {
-    return this.props.users.map( (users)=> {
+    return this.props.users.map((user)=> {
       return(
-        <li key={user.id}> {user.first}</li>
+        <Text key={user.id}> {user.first}, </Text>
       )
     })
   }
-  
+
   render() {
     return (
-        <ul>
+        <Text>
           {this.createListItems()}
-        </ul>
+        </Text>
       )
   }
 }
