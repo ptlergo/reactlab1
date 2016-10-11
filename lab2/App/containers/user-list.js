@@ -15,4 +15,12 @@ export default class UserList extends Component {
       <Text>1</Text>
     )
   }
+
+  // Send state from store into component as prop
+  function mapStateToProps(state) {
+    return {
+      users: state.users
+    }
+
+  }
 }

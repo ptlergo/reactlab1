@@ -14,7 +14,7 @@ import allReducers from '../reducers/index'
 import store from '../Store'
 
 
-// created class
+// created class for main container
 export default class App extends Component {
   render(){
     return (
